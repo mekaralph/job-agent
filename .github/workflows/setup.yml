@@ -1,0 +1,106 @@
+name: Set up my job agent
+
+# Run this once from the Actions tab (Actions → "Set up my job agent" → Run workflow).
+# It writes jobs-agent.toml from your answers, then (in the same run) searches for
+# jobs and publishes your dashboard to GitHub Pages.
+on:
+  workflow_dispatch:
+    inputs:
+      field:
+        description: "Your job field, as comma-separated keywords. Add German words too, e.g.: software, entwickler, data"
+        required: true
+        type: string
+      city:
+        description: "Your city in Germany, e.g. Leipzig"
+        required: true
+        type: string
+      radius_km:
+        description: "Search radius around your city (km)"
+        required: true
+        default: 35
+        type: number
+      level:
+        description: "student = Werkstudent, internship, entry level, part-time · entry = entry level + internships · any = any non-senior role"
+        required: true
+        default: student
+        type: choice
+        options: [student, entry, any]
+      scope:
+        description: "Where to look for jobs in your field: germany = all of Germany · local = near your city"
+        required: true
+        default: germany
+        type: choice
+        options: [germany, local]
+      local_part_time:
+        description: "Also list part-time jobs and minijobs near your city"
+        required: true
+        default: true
+        type: boolean
+
+permissions:
+  contents: read
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    # Job-level, not workflow-level: the deploy job below calls refresh-jobs.yml,
+    # which takes the same group, and a workflow-level group here would deadlock.
+    concurrency:
+      group: jobs-dashboard
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+
+      - name: Write jobs-agent.toml
+        env:
+          FIELD: ${{ inputs.field }}
+          CITY: ${{ inputs.city }}
+          RADIUS: ${{ inputs.radius_km }}
+          LEVEL: ${{ inputs.level }}
+          SCOPE: ${{ inputs.scope }}
+          LOCAL_PART_TIME: ${{ inputs.local_part_time }}
+        run: |
+          python -m jobs_agent setup --field "$FIELD" --city "$CITY" --radius "$RADIUS" \
+            --level "$LEVEL" --scope "$SCOPE" --local-part-time "$LOCAL_PART_TIME"
+          cat jobs-agent.toml
+          # Start with an empty feed so the first digest only lists your own matches.
+          mkdir -p docs && echo "[]" > docs/jobs.json
+
+      - name: Commit configuration
+        run: |
+          git config user.name "jobs-agent[bot]"
+          git config user.email "jobs-agent[bot]@users.noreply.github.com"
+          git add jobs-agent.toml docs/jobs.json
+          if git diff --cached --quiet; then
+            echo "Configuration unchanged."
+          else
+            git commit -m "chore: configure job agent"
+            git push
+          fi
+          {
+            echo "## ✅ Configuration saved"
+            echo "The **deploy** job in this run now searches for jobs and publishes your dashboard."
+            echo "After that, a digest issue notifies you every morning at 08:00 (Berlin time)."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+  # Build, upload-pages-artifact and deploy-pages all run inside the called
+  # workflow, in this same run. The push above used GITHUB_TOKEN, which never
+  # triggers other workflows, so nothing else would start the first deploy.
+  deploy:
+    needs: setup
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+      issues: write
+      actions: read
+    uses: ./.github/workflows/refresh-jobs.yml
+    with:
+      send_test_notification: true
+    secrets: inherit
