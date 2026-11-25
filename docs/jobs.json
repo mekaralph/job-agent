@@ -1,31 +1,5 @@
 [
   {
-    "id": "693177843e7824c1233f",
-    "title": "Software Engineering Intern (Full-Stack)",
-    "company": "Sanovio",
-    "location": "Munich",
-    "url": "https://www.arbeitnow.com/jobs/companies/sanovio/software-engineering-intern-full-stack-munich-63636",
-    "description": "About the Role As a Software Engineering Intern at SANOVIO, you’ll get hands-on experience building the AI-powered procurement infrastructure that tackles one of the biggest and most complex cost problems in European healthcare. This is a fast-paced, hands-on role for aspiring engineers with high agency, strong technical curiosity, and a builder mindset. We’re looking for a full-stack generalist with a frontend affinity. You’re eager to design user flows and implement them in React and TypeScript, while learning to own outcomes end-to-end across backend, data, AI-enabled workflows, and cloud deployment. You thrive amid uncertainty, move quickly, and care deeply about writing clean, high-quality code. If you are a passionate builder who thrives at the intersection of full-stack development and AI, this is your opportunity to work directly with the founders, contribute to a real product, and grow rapidly in a startup scaling toward €10M ARR in 2026. Tasks Contributing to end-to-end product workflows , from frontend UX to backend systems, data pipelines, and edge cases Building frontend experiences in React and TypeScript alongside scalable, reliable backend systems Supporting the design and development of AI-enabled systems , including embeddings, retrieval, and agents that create real operational leverage Working on data pipelines for large-scale unstructured data Making pragmatic technical decisions on architecture, tools, and frameworks to balance speed and quality Deploying and maintaining software in cloud environments with a “you ship it, you run it” mindset Writing clean, maintainable, and well-tested code with scalable, reusable components and APIs Collaborating across the stack and learning through code reviews, pair programming, and mentorship from senior engineers General Profile We are looking for ambitious engineering students or recent graduates with a strong foundation in software engineering and a genuine interest in AI. We hire for skill, ownership, and output. Generalist mindset with a frontend affinity, eager to build across backend, data, and AI Proactive and self-driven, able to turn unclear requirements into shipped software Fast learner who picks up new technologies and frameworks quickly Comfortable iterating closely with users and clients, including across different cultures Strong problem-solving ability and attention to detail Motivated to build excellent software in a fast-paced startup environment Willing to work in-person in Munich with a higher intensity than a traditional 9–5 role Technical Skillset Solid foundation in full-stack software engineering, especially React and TypeScript, with a good understanding of constructing user flows Backend engineering skills, ideally with Node.js, and familiarity with APIs and data modeling Experience building software projects (academic, personal, or professional) Familiarity with Docker and cloud environments is a plus AI experience is a plus, especially embeddings and retrieval, structured outputs and tool calling, evals, and agentic workflows beyond prompt engineering Communication &amp; Ownership You take initiative and enjoy taking responsibility for your work You communicate clearly and are comfortable interacting with technical stakeholders and clients You actively seek feedback and want to improve rapidly Bonus if you Can share a portfolio of projects, shipped products, or a GitHub with meaningful work Have built workflow-heavy B2B products, internal tools, or operations software Benefits Great central office in Munich with regular team events and dinners Monthly Wellness budget Access to any AI or productivity tools you need to do your best work International scope &amp; travel Flexible work setup with time-zone responsibility Full-time offer opportunity About the interview process Step 1: Intro Call Casual intro meeting with one of the founders to get to know each other and introduce SANOVIO. Step 2: Technical Interview The technical interview consists of two parts: A take-home exercise, including a short presentation A system design interview For the take-home exercise, we’ll provide you with a task focusing on a real SANOVIO workflow and user flow in React and TypeScript, with a light end-to-end angle such as API integration, data modeling, edge cases, and clean architecture. Later, you’ll present your results to us. Step 3: Personal Fit Meet another co-founder to get a feel for our culture and working style. Step 4: Offer If we see a great fit, you’ll receive an offer. We’re excited to see your application and get to know you! Noel, Alex &amp; Yong The Founder Team Find more English Speaking Jobs in Germany on Arbeitnow",
-    "source": "arbeitnow",
-    "category": "field",
-    "role_family": "field",
-    "role_type": "internship",
-    "seniority": "junior",
-    "employer_category": "Core",
-    "language_requirement": "open",
-    "remote": false,
-    "published_at": "2026-11-24T15:40:15+00:00",
-    "score": 92,
-    "reasons": [
-      "Credible Software Engineer entry point",
-      "Clear entry-level/student framing",
-      "Located in Germany",
-      "No strict German requirement detected",
-      "Builds transferable enterprise/technical experience"
-    ],
-    "first_seen_at": "2026-11-24T22:00:12.440422+00:00"
-  },
-  {
     "id": "ae754fbc1c3ddd54b59d",
     "title": "Junior Software Engineer (m/w/d) Fullstack Mietwagen International",
     "company": "CHECK24 Services Personal GmbH",
@@ -93,13 +67,12 @@
     "language_requirement": "open",
     "remote": false,
     "published_at": "2026-11-10",
-    "score": 87,
+    "score": 85,
     "reasons": [
       "Credible Software Engineer entry point",
       "Clear entry-level/student framing",
       "Located in Germany",
-      "English-only role",
-      "Recently posted"
+      "English-only role"
     ],
     "first_seen_at": "2026-11-24T22:00:16.572779+00:00"
   },
@@ -232,6 +205,32 @@
     "first_seen_at": "2026-11-24T22:00:18.548583+00:00"
   },
   {
+    "id": "4122b3239c3ed6e16840",
+    "title": "Aushilfe/Minijob Logistik - Schwerpunkt Warenverräumung (m/w/d)",
+    "company": "Media-Saturn Deutschland GmbH",
+    "location": "Leipzig, Sachsen, Deutschland",
+    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18019-202570-S",
+    "description": "Fachkraft - Lagerwirtschaft",
+    "source": "bundesagentur",
+    "category": "part-time",
+    "role_family": "part-time",
+    "role_type": "minijob",
+    "seniority": "neutral",
+    "employer_category": "Core",
+    "language_requirement": "open",
+    "remote": false,
+    "published_at": "2026-11-25",
+    "score": 74,
+    "reasons": [
+      "Credible Part-time & Minijob entry point",
+      "Experience level not clearly stated",
+      "Located in Germany",
+      "English-only role",
+      "Recently posted"
+    ],
+    "first_seen_at": "2026-11-25T17:43:28.334854+00:00"
+  },
+  {
     "id": "859c0a1f796465af2cbf",
     "title": "Bauzeichner Infrastrukturplanung (m/w/d) Vollzeit / Teilzeit",
     "company": "VCDB VerkehrsConsult Dresden-Berlin GmbH",
@@ -256,32 +255,6 @@
       "Recently posted"
     ],
     "first_seen_at": "2026-11-24T22:00:20.623971+00:00"
-  },
-  {
-    "id": "1d38b1dfd740c797406d",
-    "title": "Dialyseassistenz (m/w/d) in Vollzeit / Teilzeit",
-    "company": "Nierenzentrum Leipzig",
-    "location": "Leipzig, Sachsen, Deutschland",
-    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12688-REG-45188-RJA-S",
-    "description": "Pflegefachmann/-frau (Ausbildung)",
-    "source": "bundesagentur",
-    "category": "part-time",
-    "role_family": "part-time",
-    "role_type": "part-time",
-    "seniority": "neutral",
-    "employer_category": "Core",
-    "language_requirement": "open",
-    "remote": false,
-    "published_at": "2026-11-16",
-    "score": 74,
-    "reasons": [
-      "Credible Part-time & Minijob entry point",
-      "Experience level not clearly stated",
-      "Located in Germany",
-      "English-only role",
-      "Recently posted"
-    ],
-    "first_seen_at": "2026-11-24T22:00:20.625174+00:00"
   },
   {
     "id": "47bc712939eafb60bef8",
@@ -596,6 +569,32 @@
     "first_seen_at": "2026-11-24T22:00:18.549600+00:00"
   },
   {
+    "id": "5def9a09aac676c266d2",
+    "title": "Minijob Hausmeister (m/w/d)",
+    "company": "Ralf Gläser",
+    "location": "Halle (Saale), Sachsen Anhalt, Deutschland",
+    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208789990-S",
+    "description": "Hausmeister/in",
+    "source": "bundesagentur",
+    "category": "part-time",
+    "role_family": "part-time",
+    "role_type": "minijob",
+    "seniority": "neutral",
+    "employer_category": "Core",
+    "language_requirement": "open",
+    "remote": false,
+    "published_at": "2026-11-25",
+    "score": 74,
+    "reasons": [
+      "Credible Part-time & Minijob entry point",
+      "Experience level not clearly stated",
+      "Located in Germany",
+      "English-only role",
+      "Recently posted"
+    ],
+    "first_seen_at": "2026-11-25T17:43:28.334614+00:00"
+  },
+  {
     "id": "228272b851282f5ffe13",
     "title": "Mitarbeiter (m/w/d) Logistik / Warenannahme im Fashion-Bereich Minijob",
     "company": "TMS Trademarketing Service GmbH",
@@ -620,6 +619,32 @@
       "Recently posted"
     ],
     "first_seen_at": "2026-11-24T22:00:18.548887+00:00"
+  },
+  {
+    "id": "6041ddedfbf2aa4301fa",
+    "title": "Notfallsanitäter*in auf geringfügiger Basis (Minijob)",
+    "company": "Falck Notfallrettung und Krankentransport GmbH",
+    "location": "Leipzig, Sachsen, Deutschland",
+    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/16719-0068963021-S",
+    "description": "Notfallsanitäter/in",
+    "source": "bundesagentur",
+    "category": "part-time",
+    "role_family": "part-time",
+    "role_type": "minijob",
+    "seniority": "neutral",
+    "employer_category": "Core",
+    "language_requirement": "open",
+    "remote": false,
+    "published_at": "2026-11-25",
+    "score": 74,
+    "reasons": [
+      "Credible Part-time & Minijob entry point",
+      "Experience level not clearly stated",
+      "Located in Germany",
+      "English-only role",
+      "Recently posted"
+    ],
+    "first_seen_at": "2026-11-25T17:43:28.335022+00:00"
   },
   {
     "id": "94cb785cbd9eed5d5aa8",
@@ -652,8 +677,8 @@
     "title": "Pflegehelfer (m/w/d) Teilzeit",
     "company": "PERSO PLANKONTOR GmbH",
     "location": "Leipzig, Sachsen, Deutschland",
-    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14087-INWS1TYM8MWRKZTH-S",
-    "description": "Gesundheits- und Krankenpflegehelfer/in",
+    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14087-0XJN1K13Y9JS7IX5-S",
+    "description": "Altenpflegehelfer/in",
     "source": "bundesagentur",
     "category": "part-time",
     "role_family": "part-time",
@@ -662,7 +687,7 @@
     "employer_category": "Core",
     "language_requirement": "open",
     "remote": false,
-    "published_at": "2026-11-11",
+    "published_at": "2026-11-25",
     "score": 74,
     "reasons": [
       "Credible Part-time & Minijob entry point",
@@ -730,7 +755,7 @@
     "title": "Verkäufer Teilzeit (m/w/d)",
     "company": "Lidl Dienstleistung GmbH & Co. KG",
     "location": "Leipzig, Sachsen, Deutschland",
-    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19220-40cf06b74126aa60-S",
+    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/19220-7a587cbb77189645-S",
     "description": "Verkäufer/in",
     "source": "bundesagentur",
     "category": "part-time",
@@ -740,7 +765,7 @@
     "employer_category": "Core",
     "language_requirement": "open",
     "remote": false,
-    "published_at": "2026-11-17",
+    "published_at": "2026-11-25",
     "score": 74,
     "reasons": [
       "Credible Part-time & Minijob entry point",
@@ -925,31 +950,6 @@
       "English-only role"
     ],
     "first_seen_at": "2026-11-24T22:00:18.547634+00:00"
-  },
-  {
-    "id": "ceaed74f810c59745ec5",
-    "title": "Pflegefachmann (m/w/d) Teilzeit",
-    "company": "PERSO PLANKONTOR GmbH",
-    "location": "Leipzig, Sachsen, Deutschland",
-    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14087-8QOZ5B9OLNVGIH6G-S",
-    "description": "Pflegefachmann/-frau (Altenpflege)",
-    "source": "bundesagentur",
-    "category": "part-time",
-    "role_family": "part-time",
-    "role_type": "part-time",
-    "seniority": "neutral",
-    "employer_category": "Core",
-    "language_requirement": "open",
-    "remote": false,
-    "published_at": "2026-10-26",
-    "score": 72,
-    "reasons": [
-      "Credible Part-time & Minijob entry point",
-      "Experience level not clearly stated",
-      "Located in Germany",
-      "English-only role"
-    ],
-    "first_seen_at": "2026-11-24T22:00:20.624713+00:00"
   },
   {
     "id": "2e53f436258cd3d00097",
@@ -1202,31 +1202,6 @@
     "first_seen_at": "2026-11-24T22:00:18.548998+00:00"
   },
   {
-    "id": "d615f2d08fa3b1c6ee74",
-    "title": "Haushaltshilfe / Alltagsbegleiter (m/w/d) Leipzig – Minijob",
-    "company": "Alltagsteam Kolpe GmbH",
-    "location": "Leipzig, Sachsen, Deutschland",
-    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208316742-S",
-    "description": "Hauswirtschafter/in (ohne Schwerpunkte)",
-    "source": "bundesagentur",
-    "category": "part-time",
-    "role_family": "part-time",
-    "role_type": "minijob",
-    "seniority": "neutral",
-    "employer_category": "Core",
-    "language_requirement": "open",
-    "remote": false,
-    "published_at": "2026-10-16",
-    "score": 70,
-    "reasons": [
-      "Credible Part-time & Minijob entry point",
-      "Experience level not clearly stated",
-      "Located in Germany",
-      "English-only role"
-    ],
-    "first_seen_at": "2026-11-24T22:00:18.549426+00:00"
-  },
-  {
     "id": "2d7c326345a4fb0e76b6",
     "title": "Hausmeister (m/w/d) Minijob",
     "company": "Greenline - Alternative Energien GmbH",
@@ -1350,31 +1325,6 @@
       "English-only role"
     ],
     "first_seen_at": "2026-11-24T22:00:18.548682+00:00"
-  },
-  {
-    "id": "09f8848a10b3f08403c3",
-    "title": "Minijob Aushilfsverkäufer (m/w/d)",
-    "company": "mister*lady GmbH",
-    "location": "Leuna, Sachsen Anhalt, Deutschland",
-    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003401739-S",
-    "description": "Verkäufer/in",
-    "source": "bundesagentur",
-    "category": "part-time",
-    "role_family": "part-time",
-    "role_type": "minijob",
-    "seniority": "neutral",
-    "employer_category": "Core",
-    "language_requirement": "open",
-    "remote": false,
-    "published_at": "2026-07-17",
-    "score": 70,
-    "reasons": [
-      "Credible Part-time & Minijob entry point",
-      "Experience level not clearly stated",
-      "Located in Germany",
-      "English-only role"
-    ],
-    "first_seen_at": "2026-11-24T22:00:18.549669+00:00"
   },
   {
     "id": "63e84c10449fb47aa186",
